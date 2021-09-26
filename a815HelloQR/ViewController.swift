@@ -55,8 +55,19 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             if metadataObjects.count > 0 {
                 let machineReabableCode = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
                 scanTextLabel.text = machineReabableCode.stringValue
-
+                let utterance = AVSpeechUtterance(string: "大家好")
+                       utterance.voice = AVSpeechSynthesisVoice(language: "zh-Hant")
+                       utterance.rate = 0.2
+                       let synthesizer = AVSpeechSynthesizer()
+                       synthesizer.speak(utterance)
+                       avCaptureSession.stopRunning()
             }
         }
+    
+    
+    @IBAction func restrart(_ sender: Any) {
+        avCaptureSession.startRunning()
+    }
+    
 }
 
