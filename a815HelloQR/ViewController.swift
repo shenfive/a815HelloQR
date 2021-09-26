@@ -50,5 +50,13 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         avCaptureSession.startRunning()
 
     }
+    
+    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+            if metadataObjects.count > 0 {
+                let machineReabableCode = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
+                scanTextLabel.text = machineReabableCode.stringValue
+
+            }
+        }
 }
 
