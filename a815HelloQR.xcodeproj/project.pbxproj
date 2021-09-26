@@ -13,6 +13,7 @@
 		BA20006027000A7600E868E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA20005E27000A7600E868E0 /* Main.storyboard */; };
 		BA20006227000A7600E868E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA20006127000A7600E868E0 /* Assets.xcassets */; };
 		BA20006527000A7600E868E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA20006327000A7600E868E0 /* LaunchScreen.storyboard */; };
+		BA20006D27000A8800E868E0 /* 使用 AVFoundation_掃瞄條碼.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA20006C27000A8800E868E0 /* 使用 AVFoundation_掃瞄條碼.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA20006127000A7600E868E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA20006427000A7600E868E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA20006627000A7600E868E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA20006C27000A8800E868E0 /* 使用 AVFoundation_掃瞄條碼.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "使用 AVFoundation_掃瞄條碼.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BA20005E27000A7600E868E0 /* Main.storyboard */,
 				BA20006127000A7600E868E0 /* Assets.xcassets */,
 				BA20006327000A7600E868E0 /* LaunchScreen.storyboard */,
+				BA20006C27000A8800E868E0 /* 使用 AVFoundation_掃瞄條碼.pdf */,
 				BA20006627000A7600E868E0 /* Info.plist */,
 			);
 			path = a815HelloQR;
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA20006D27000A8800E868E0 /* 使用 AVFoundation_掃瞄條碼.pdf in Resources */,
 				BA20006527000A7600E868E0 /* LaunchScreen.storyboard in Resources */,
 				BA20006227000A7600E868E0 /* Assets.xcassets in Resources */,
 				BA20006027000A7600E868E0 /* Main.storyboard in Resources */,
